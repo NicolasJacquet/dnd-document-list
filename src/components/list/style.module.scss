@@ -1,0 +1,20 @@
+.draggedItem {
+    transform: scale(0.96);
+    cursor: grabbing;
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.2);
+}
+
+.itemsDropPlaceholder {
+    margin: 8px 0;
+    background: green;
+    background-color: rgba(150, 150, 200, 0.1);
+    border: 1px dashed #abc;
+    border-radius: 4px;
+}
+
+.emptyListTxt {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}

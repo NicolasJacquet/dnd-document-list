@@ -1,0 +1,19 @@
+.description {
+    color: #646874;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    width: 100%;
+    background: transparent;
+    border: 1px solid transparent;
+    outline: 0;
+    border-radius: 4px;
+    padding: 4px 10px;
+    margin-left: -10px;
+    resize: none;
+    overflow: auto;
+
+    &:focus {
+        background: #ffffff;
+        border-color: #dddcdc;
+    }
+}
